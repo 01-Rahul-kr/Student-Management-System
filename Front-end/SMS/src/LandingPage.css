@@ -1,0 +1,51 @@
+.landing {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #0f766e);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.landing-content {
+  max-width: 600px;
+}
+
+.landing h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.landing p {
+  font-size: 16px;
+  color: #e2e8f0;
+  margin-bottom: 25px;
+}
+
+.enter-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  background: white;
+  color: #0f766e;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.enter-btn:hover {
+  background: #e2e8f0;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .landing h1 {
+    font-size: 28px;
+  }
+
+  .landing p {
+    font-size: 14px;
+  }
+}
