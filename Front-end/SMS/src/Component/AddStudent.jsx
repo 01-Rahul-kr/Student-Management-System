@@ -19,7 +19,7 @@ const AddStudent = ({ fetchStudents }) => {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:8081/students", student);
+      await axios.post("https://student-management-system-backend-q4si.onrender.com/students", student);
 
       fetchStudents();
 

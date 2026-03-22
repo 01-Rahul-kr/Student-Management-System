@@ -10,7 +10,7 @@ function App() {
   const [students, setStudents] = useState([]);
   const [search, setSearch] = useState("");
 
-  const BASE_URL = "http://localhost:8081/students";
+  const BASE_URL = "https://student-management-system-backend-q4si.onrender.com/students";
 
   const fetchStudents = async () => {
     try {

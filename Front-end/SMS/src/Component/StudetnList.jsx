@@ -5,7 +5,7 @@ const StudentList = ({ students, fetchStudents }) => {
 
   const deleteStudent = async (id) => {
     try {
-      await axios.delete(`http://localhost:8081/students/${id}`);
+      await axios.delete(`https://student-management-system-backend-q4si.onrender.com/students/${id}`);
       fetchStudents();
     } catch (error) {
       console.error("Error deleting student:", error);
